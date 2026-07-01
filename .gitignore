@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+backend/venv/
+simulators/venv/
+frontend/venv/
+
+# Environment variables
+.env
+backend/.env
+!backend/.env.example
+
+# Node.js
+node_modules/
+contracts/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat artifacts (auto-generated)
+contracts/artifacts/
+contracts/cache/
+
+# Contract info (generated at deploy time)
+# backend/contract-info.json  ← uncomment if you want to exclude
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Keys (NEVER commit private keys!)
+backend/keys/*.pem
+backend/keys/*.key
+*.pem
+*.key
